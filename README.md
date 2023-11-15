@@ -45,6 +45,17 @@ git -C ~/.studentLabels pull https://github.com/ccsnetadmin/studentLabels.git &&
 
 ## Label Order
 
+```
++------+------+------+      Labels begin at A1 in the top
+|  A1  |  B1  |  C1  |      right corner and continue right
+|  A2  |  B2  |  C2  |      then down.
+ \      \      \      \
+  +------+------+------+    Example:
+ /      /      /      /         A1 -> B1 -> C1 -> A2 -> B2
+|  A9  |  B9  |  C9  |
+|  A10 |  B10 |  C10 |      Labels will automatically begin
++------+------+------+      at A1 on new pages.
+```
 
 
 ## Interactive
